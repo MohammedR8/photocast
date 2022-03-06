@@ -1,5 +1,7 @@
 import Coming from './Coming.js'
 import Humidity from './Humidity.js'
+import Exposure from './Exposure.js'
+import c from './Exposure.js'
 
 const MoreInfo = ({weatherData}) => {
   console.log(weatherData)
@@ -10,7 +12,7 @@ const MoreInfo = ({weatherData}) => {
         <Coming name="Alexis" due="28.02"/>
       </div>
       <div className="linesInfo">
-        <Coming name="Mohammed" due="28.02" />
+        <Exposure cloudCover={50}/>
       </div>
 
       <div className="blockInfo">
